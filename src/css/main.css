@@ -1,0 +1,67 @@
+/* Global Styles */
+
+@import url("//fonts.googleapis.com/css?family=Work+Sans:300,400,600");
+
+html,body {
+  background:#e9e9e9;
+  color:#333;
+  font-family:"Work Sans", sans-serif;
+  line-height:1.4;
+  height: 100%;
+  width: 100%;
+}
+
+*,::before,::after {
+  box-sizing:border-box;
+}
+
+:focus {
+  outline:none;
+}
+
+.wrapper {
+  margin:0 auto;
+  padding:1rem 0;
+  width:calc(100% - 5rem);
+}
+
+/* Steps */
+
+.step-list {
+  width: 50%;
+  margin: 20px auto 0 auto;
+}
+
+.step-table-header {
+  padding: 5px;
+}
+
+.step-table-header * {
+  margin: 10px 5px 0 5px;
+}
+
+.step-table-cell {
+  padding: 5px;
+  text-align: center;
+}
+
+.step-table-cell * {
+  margin: 0 5px;
+}
+
+.step-border {
+  /* display:table-row-group; */
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  border-radius: 10px;
+  padding: 5px auto;
+  width: 100%;
+  min-height: 2rem;
+  min-width: 4rem;
+  text-align: center;
+}
+
+tbody {
+  outline: 1px solid #000;
+}
